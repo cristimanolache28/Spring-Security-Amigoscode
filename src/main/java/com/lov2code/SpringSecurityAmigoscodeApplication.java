@@ -9,9 +9,8 @@ public class SpringSecurityAmigoscodeApplication {
 
     public static void main(String[] args) {
         ApplicationContext context = SpringApplication.run(SpringSecurityAmigoscodeApplication.class, args);
-        for (String s : context.getBeanDefinitionNames()) {
-            System.out.println(s);
+//        for (String s : context.getBeanDefinitionNames()) {
+//            System.out.println(s);
         }
-    }
 
 }
